@@ -726,17 +726,20 @@ var permissionTests = {
   },
   'wifi-manage' : {
     verify : function(success, fail) {
-
-      try {
-        if(window.navigator.mozWifiManager instanceof SpecialPowers.Ci.nsIDOMWifiManager) {
-          success();
-        } else {
-          fail();
+      if ('mozWifiManager' in window.navigator) {
+        try {
+          if(window.navigator.mozWifiManager instanceof SpecialPowers.Ci.nsIDOMWifiManager) {
+            success();
+          } else {
+            fail();
+          }
+        } catch (e) {
+          fail("Error:" + e.name);
         }
-      } catch (e) {
-        fail("Error:" + e.name);
-      }
-
+    }
+    else {
+            fail("No wifi available on your device");
+    }
     }
   },
   /*
