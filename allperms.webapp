@@ -1,0 +1,54 @@
+{
+  "name": "All Perms",
+  "description": "Web app template",
+  "launch_path": "",
+
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+	"permissions": {
+		"resource-lock":{},
+		"geolocation":{},
+		"camera":{},
+		"alarms":{},
+		"tcp-socket":{},
+		"network-events":{},
+		"contacts":{"access":"readwrite"},
+		"device-storage:apps":{"access":"readwrite"},
+		"device-storage:pictures":{"access":"readwrite"},
+		"device-storage:videos":{"access":"readwrite"},
+		"device-storage:music":{"access":"readwrite"},
+		"device-storage:sdcard":{"access":"readwrite"},
+		"sms":{},
+		"telephony":{},
+		"browser":{},
+		"bluetooth":{},
+		"wifi":{},
+		"keyboard":{},
+		"mobileconnection":{},
+		"power":{},
+		"push":{},
+		"settings":{"access":"readwrite"},
+		"permissions":{},
+		"fmradio":{},
+		"attention":{},
+		"webapps-manage":{},
+		"backgroundservice":{},
+		"desktop-notification":{},
+		"networkstats-manage":{},
+		"mozBluetooth":{},
+		"wifi-manage":{},
+		"systemXHR":{},
+		"voicemail":{},
+		"deprecated-hwvideo":{},
+		"idle":{},
+		"time":{},
+		"embed-apps":{},
+		"storage":{},
+		"background-sensors":{}
+  },
+  "icons": {
+    "128": "/style/icons/Blank.png"
+  }
+}

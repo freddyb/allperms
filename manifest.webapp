@@ -1,0 +1,97 @@
+{
+  "name": "allperms",
+  "description": "all permissions app",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "developer": {
+    "name": "pauljt/freddyb",
+    "url": "http://example.com/bogus"
+  },
+  "permissions": {
+    "geolocation":{},
+    "camera":{},
+    "alarms":{},
+    "tcp-socket":{},
+    "network-events":{},
+    "contacts":{"access":"readwrite"},
+    "device-storage:apps":{"access":"readwrite"},
+    "device-storage:pictures":{"access":"readwrite"},
+    "device-storage:videos":{"access":"readwrite"},
+    "device-storage:music":{"access":"readwrite"},
+    "device-storage:sdcard":{"access":"readwrite"},
+    "sms":{},
+    "telephony":{},
+    "browser":{},
+    "bluetooth":{},
+    "keyboard":{},
+    "mobileconnection":{},
+    "power":{},
+    "settings":{"access":"readwrite"},
+    "permissions":{},
+    "fmradio":{},
+    "attention":{},
+    "webapps-manage":{},
+    "backgroundservice":{},
+    "desktop-notification":{},
+    "networkstats-manage":{},
+    "wifi-manage":{},
+    "systemXHR":{},
+    "voicemail":{},
+    "deprecated-hwvideo":{},
+    "idle":{},
+    "time":{},
+    "embed-apps":{},
+    "storage":{},
+    "background-sensors":{}
+  },
+  "locales": {
+    "ar": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "de": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "el": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "en-US": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "es": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "fr": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "it": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "pt-BR": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "ru": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "tr": {
+      "name": "allperms",
+      "description": "all permissions app"
+    },
+    "zh-TW": {
+      "name": "allperms",
+      "description": "all permissions app"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/style/icons/Blank.png"
+  }
+}

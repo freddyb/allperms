@@ -1,0 +1,4 @@
+This Firefox OS app requests to be a certified app with all possible permissions.
+
+Based on pauljt's app (http://allperms.creativemisuse.com/),
+but updated to reflect the most recent updates to the Firefox OS permissions

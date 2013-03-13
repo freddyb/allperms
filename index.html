@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Firefox OS Permissions Tester</title>
+    <link rel="stylesheet" href="shared/style_unstable/tabs.css">
+    <link rel="stylesheet" href="shared/style_unstable/lists.css">
+    <link rel="stylesheet" href="shared/style/buttons.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <script src='permissions_table.js'></script>
+  <script src='permission_tests.js'></script>
+  <script src='apptestperms.js'></script>
+  <body>
+    <section role="region">
+    
+    <ul role="tablist" data-items="3">
+      <li id="panel1" role="tab">
+        <a href="#panel1">Install</a>
+        <div role="tabpanel">
+          
+          <h1>Install as an app</h1>
+          <div id='installers'>
+            <header>
+              Normal Web App
+            </header>
+            <p>
+              <button id='install-allperms-web' manifest="http://allperms.web/allperms.webapp">
+                install all perms
+              </button>
+              <button  id='install-noperms-web' manifest="http://noperms.web/noperms.webapp">
+                install no perms
+              </button>
+            </p>
+            <header>
+              Certified Web App (developer mode must be enabled)
+            </header>
+            <p>
+              <button id='install-allperms-cert' manifest="http://allperms.web/allperms_cert.webapp">
+                install all perms
+              </button>
+              <button id='install-noperms-cert' manifest="http://noperms.web/noperms_cert.webapp">
+                install no perms
+              </button>
+            </p>
+            </div>
+          
+        </div>
+      </li>
+      <li id="panel2" role="tab">
+        <a href="#panel2">Tests</a>
+        <div role="tabpanel">
+          
+          <button id='alltests'>
+              Run all tests
+            </button>
+            <div id='content'></div>
+            <section data-type="list">
+              <header>
+                Tests
+              </header>
+              <ul id='testlist'></ul>
+            </section>
+          
+        </div>
+      </li>
+      <li id="panel3" role="tab" >
+        <a href="#panel3">Output</a>
+        <div role="tabpanel">
+          <div width='100%'>
+             <button id='clearlog'>
+              Clear
+            </button>
+            <textarea id='output' rows=10 cols=10 class='boxsizingBorder'></textarea>
+          </div>
+          
+          
+        </div>
+      </li>
+    </ul>
+  </section>
+  </body>
+</html>
