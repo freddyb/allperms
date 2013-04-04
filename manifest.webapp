@@ -92,6 +92,8 @@
   },
   "default_locale": "en-US",
   "icons": {
-    "128": "/style/icons/Blank.png"
+    "30": "shared/style/icon30.png",
+    "60": "shared/style/icon60.png",
+    "128": "shared/style/icon128.png"
   }
 }
